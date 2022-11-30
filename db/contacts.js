@@ -52,7 +52,7 @@ const addContact = async (name, email, phone) => {
     try {
         const allContacts = await listContacts();
         allContacts.push(newContact)
-        await fs.writeFile(contactsPath, JSON.stringify(allContacts));
+        await fs.writeFile(contactsPath, JSON.stringify(allContacts, null, 2));
     } catch (error) {
         console.log(error.message);
     }
