@@ -3,7 +3,7 @@ const {
     getContactById,
     removeContact,
     addContact,
-} = require("./contacts.js");
+} = require("./db/contacts.js");
 
 const yargs = require('yargs')
 const { hideBin } = require('yargs/helpers');

@@ -10,7 +10,7 @@ http://joxi.ru/D2PkweGhW1vyVm
 
 <!-- node index.js --action="add" --name="Mango" --email="mango@gmail.com" --phone="322-22-22" -->
 
-http://joxi.ru/xAew4Y6hV6LKjm
+http://joxi.ru/p27jJRviZE9RJm
 
 <!-- node index.js --action="remove" --id=3  -->
 
